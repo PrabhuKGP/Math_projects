@@ -183,6 +183,7 @@ main(){
     pair<double,double> a[n];
 
     //inserting the vertices into circular list 
+    cout<<"Enter the vertices(x,y) in clockwise order:\n";
     for(int i=0;i<n;i++){
         double x,y;
         cin>>x>>y;
@@ -244,7 +245,8 @@ main(){
 
     for(int i=0;i<(sz-3);i++){
 
-        cout<<ans[i][0]<<" "<<ans[i][1]<<"\n";
+        cout<<"Diagonals between point number: ";
+        cout<<ans[i][0]<<" and "<<ans[i][1]<<"\n";
 
     }
 }
